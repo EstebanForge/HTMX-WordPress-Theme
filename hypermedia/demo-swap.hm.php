@@ -3,17 +3,17 @@
 defined('ABSPATH') || exit('Direct access not allowed.');
 
 // Secure it.
-if (!hmapi_validate_request()) {
-    hmapi_die('Nonce verification failed.');
+if (!hm_validate_request()) {
+    hm_die('Nonce verification failed.');
 }
 
 // Action = demo
 if (!isset($hmvals['action']) || $hmvals['action'] != 'demo') {
-    hmapi_die('Invalid action.');
+    hm_die('Invalid action.');
 }
 
 // Loaded file
-$hmapi_template = '/' . wp_get_theme()->get_stylesheet() . strstr(__FILE__, '/' . HMAPI_TEMPLATE_DIR);
+$hm_template = '/' . wp_get_theme()->get_stylesheet() . strstr(__FILE__, '/' . HMAPI_TEMPLATE_DIR);
 ?>
 
 <article>
@@ -28,7 +28,7 @@ $hmapi_template = '/' . wp_get_theme()->get_stylesheet() . strstr(__FILE__, '/' 
 
 <hr>
 
-<p>Template loaded from <code><?php echo $hmapi_template; ?></code>
+<p>Template loaded from <code><?php echo $hm_template; ?></code>
 </p>
 
 <p>Received params ($hmvals):</p>

@@ -14,7 +14,7 @@ $hxtheme_data = $wp_query->hxtheme_data;
 		<p><?php _e($hxtheme_data['description'], 'hxtheme'); ?></p>
 
 		<p>
-			<button id="trigger-demo" hx-get="<?php echo hmapi_get_endpoint_url($hxtheme_data['path']); ?>" hx-swap="none" hx-vals='{"action": "demo", "crash": "dummy"}' hx-disabled-elt="this" hx-indicator=".spinner">Click to send data</button>
+			<button id="trigger-demo" hx-get="<?php echo hm_get_endpoint_url($hxtheme_data['path']); ?>" hx-swap="none" hx-vals='{"action": "demo", "crash": "dummy"}' hx-disabled-elt="this" hx-indicator=".spinner">Click to send data</button>
 		<div class="spinner htmx-indicator"></div>
 		</p>
 		<p>

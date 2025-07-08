@@ -42,7 +42,7 @@ add_action('after_switch_theme', 'hxtheme_activation');
 function hxtheme_activation()
 {
     // Check if HTMX-API-WP plugin is present and activated
-    if (!function_exists('hmapi_get_endpoint_url')) {
+    if (!function_exists('hm_get_endpoint_url')) {
         // Deactivate theme, go back to default
         switch_theme(WP_DEFAULT_THEME);
 
