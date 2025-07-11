@@ -1,9 +1,9 @@
 {
-	"name": "HTMX-WordPress-Theme",
+	"name": "Hypermedia-Theme-WordPress",
 	"author": "Esteban Cuevas",
 	"license": "GPL-2.0-only",
-	"version": "1.0.0",
-	"description": "A theme for showcasing HTMX over WordPress. Requires HTMX-API-WP plugin installed and activated.",
+	"version": "2.0.2",
+	"description": "A theme for showcasing Hypermedia API over WordPress. Requires Hypermedia API for WordPress plugin installed and activated.",
 	"keywords": [],
 	"main": "index.js",
 	"scripts": {

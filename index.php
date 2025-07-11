@@ -14,7 +14,7 @@ get_header();
 				if (is_front_page() || is_home()) {
 					the_excerpt();
 		?>
-					<p><a href="<?php the_permalink(); ?>" class="button"><?php _e('Read more', 'hxtheme'); ?></a></p>
+					<p><a href="<?php the_permalink(); ?>" class="button"><?php esc_html_e('Read more', 'hxtheme'); ?></a></p>
 			<?php
 				} else {
 					the_content();
@@ -22,7 +22,7 @@ get_header();
 			}
 		} else {
 			?>
-			<p><?php _e('Sorry, no posts matched your criteria.', 'hxtheme'); ?></p>
+			<p><?php esc_html_e('Sorry, no posts matched your criteria.', 'hxtheme'); ?></p>
 		<?php
 		}
 		?>

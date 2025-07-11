@@ -1,6 +1,6 @@
 # Hypermedia WordPress Theme
 
-A demo/showcase of how to use HTMX in a WordPress theme, powered by [Hypermedia API for WordPress plugin](https://github.com/EstebanForge/Hypermedia-API-WordPress).
+A demo/showcase of how to use Hypermedia API in a WordPress theme, powered by [Hypermedia API for WordPress plugin](https://github.com/EstebanForge/Hypermedia-API-WordPress).
 
 <div align="center">
 
