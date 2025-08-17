@@ -3,7 +3,7 @@
 	"author": "Esteban Cuevas",
 	"license": "GPL-2.0-only",
 	"version": "2.0.2",
-	"description": "A theme for showcasing Hypermedia API over WordPress. Requires Hypermedia API for WordPress plugin installed and activated.",
+	"description": "A theme for showcasing HyperPress over WordPress. Requires HyperPress plugin installed and activated.",
 	"keywords": [],
 	"main": "index.js",
 	"scripts": {

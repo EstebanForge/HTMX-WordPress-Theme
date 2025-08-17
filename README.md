@@ -1,10 +1,10 @@
-# Hypermedia WordPress Theme
+# HyperPress Theme for WordPress
 
-A demo/showcase of how to use Hypermedia API in a WordPress theme, powered by [Hypermedia API for WordPress plugin](https://github.com/EstebanForge/Hypermedia-API-WordPress).
+A demo/showcase of how to use Hypermedia in a WordPress theme, powered by [HyperPress plugin](https://github.com/EstebanForge/HyperPress).
 
 <div align="center">
 
-[![Hypermedia API for WordPress Demo](https://img.youtube.com/vi/6mrRA5QIcRw/0.jpg)](https://www.youtube.com/watch?v=6mrRA5QIcRw "Hypermedia API for WordPress Demo")
+[![HyperPress for WordPress Demo](https://img.youtube.com/vi/6mrRA5QIcRw/0.jpg)](https://www.youtube.com/watch?v=6mrRA5QIcRw "HyperPress for WordPress Demo")
 
 <small>
 
@@ -15,9 +15,9 @@ A demo/showcase of how to use Hypermedia API in a WordPress theme, powered by [H
 </div>
 
 ## Installation
-Download the [master branch zip](https://github.com/EstebanForge/Hypermedia-API-WordPress/archive/refs/heads/master.zip) from this repository, and [install it as a theme](https://wordpress.org/documentation/article/appearance-themes-screen/#install-themes) in your WordPress installation.
+Download the [master branch zip](https://github.com/EstebanForge/Hypermedia-Theme-WordPress/archive/refs/heads/master.zip) from this repository, and [install it as a theme](https://wordpress.org/documentation/article/appearance-themes-screen/#install-themes) in your WordPress installation.
 
-Remember to have [Hypermedia API for WordPress plugin](https://github.com/EstebanForge/Hypermedia-API-WordPress) installed and activated before activating this theme.
+Remember to have [HyperPress plugin](https://github.com/EstebanForge/HyperPress) installed and activated before activating this theme.
 
 ## Now what?
 Check your WP front, and... try it. Then check the theme code, and... learn from it.
@@ -30,12 +30,12 @@ Learn how to use Datastar from the [Datastar documentation](https://data-star.de
 
 ## Suggestions, Support
 
-Please, open [a discussion](https://github.com/EstebanForge/Hypermedia-API-WordPress/discussions).
+Please, open [a discussion](https://github.com/EstebanForge/HyperPress/discussions).
 
 ## Bugs and Error reporting
 
-Please, open [an issue](https://github.com/EstebanForge/Hypermedia-API-WordPress/issues).
+Please, open [an issue](https://github.com/EstebanForge/HyperPress/issues).
 
 ## Changelog
 
-[Available here](https://github.com/EstebanForge/Hypermedia-API-WordPress/blob/master/CHANGELOG.md).
+[Available here](https://github.com/EstebanForge/HyperPress/blob/master/CHANGELOG.md).

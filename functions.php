@@ -47,7 +47,7 @@ function hxtheme_activation()
         switch_theme(WP_DEFAULT_THEME);
 
         // Output error message
-        wp_die(__('This theme requires <a href="https://wordpress.org/plugins/api-for-htmx/" target="_blank">Hypermedia API for WordPress plugin</a> to work. Please install and activate it first.', 'hxtheme'));
+        wp_die(__('This theme requires <a href="https://wordpress.org/plugins/api-for-htmx/" target="_blank">HyperPress plugin</a> to work. Please install and activate it first.', 'hxtheme'));
     }
 }
 
@@ -103,6 +103,14 @@ add_action('wp_head', 'hxtheme_header_meta');
 function hxtheme_header_meta()
 {
     do_action('hxtheme/header_meta/start');
+
+    // Respect HyperPress preferred library; only output HTMX meta when HTMX is active
+    $hmapi_options   = get_option('hmapi_options', []);
+    $active_library  = isset($hmapi_options['active_library']) ? $hmapi_options['active_library'] : 'htmx';
+    if ($active_library !== 'htmx') {
+        do_action('hxtheme/header_meta/skip', $active_library);
+        return;
+    }
 
     $htmx_timeout           = apply_filters('hxtheme/meta/timeout', 60000);
     $htmx_globalTransitions = apply_filters('hxtheme/meta/globalTransitions', 'true'); // we need a string here
